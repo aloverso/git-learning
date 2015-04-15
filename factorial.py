@@ -6,7 +6,7 @@ Created on Wed Apr 15 15:35:02 2015
 """
 
 def factorial(n):
-    if n==1:
-        return n
-    return n * factorial(n-1)
-
+    total = 1
+    for i in range(1,n+1):
+        total = total*i 
+    return total
