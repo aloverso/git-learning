@@ -16,3 +16,5 @@ Put code in
 def test():
 	print test
 ```
+
+[Read this guide on Markdown text](https://help.github.com/articles/markdown-basics/)
