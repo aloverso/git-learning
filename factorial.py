@@ -7,7 +7,7 @@ Created on Wed Apr 15 15:35:02 2015
 
 # Calculates the factorial of a number
 def factorial(n):
-     """
+    """
     Testing the factorial
     >>> factorial(3)
     6
@@ -19,9 +19,6 @@ def factorial(n):
         total = total*i 
     return total
    
-    if n<=1:
-        return n
-    return n * factorial(n-1)
 
 if __name__ == "__main__":
     import doctest
