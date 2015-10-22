@@ -14,11 +14,11 @@ def factorial(n):
     >>> factorial(5)
     120
     """
-    total = 1
-    for i in range(1,n+1):
-        total = total*i 
-    return total
-   
+    if n == 1:
+        return 1
+    else:
+        return n*factorial(n-1)
+
 
 if __name__ == "__main__":
     import doctest
